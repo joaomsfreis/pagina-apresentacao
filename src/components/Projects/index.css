@@ -1,0 +1,15 @@
+.projects {
+    height: 657px;    
+    padding-top: 60px;
+
+    background: #fff; 
+
+}
+
+@media (max-width: 650px) {
+    
+    .projects {
+        height: 750px;
+    }
+
+}

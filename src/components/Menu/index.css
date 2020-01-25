@@ -1,0 +1,43 @@
+.menu {
+    box-shadow: 0 0 14px 0 rgba(255, 127, 80, 1);
+    position: fixed;
+    bottom:auto;
+    right:auto;
+    height: 40px;
+    width: 100%;
+
+    background: #fff;
+    opacity: 1;
+    
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #848484;
+    text-align: center;
+    padding-right: 20px;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+span.selected{
+    color: coral;
+}
+
+@media (max-width: 650px) {
+        
+    .menu {
+        justify-content: start;
+        padding-left: 10px;
+    }
+}

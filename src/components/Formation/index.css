@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+
+.formation {
+    height: 657px;    
+    padding-top: 60px;
+
+    background: #fff;
+    
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 2);
+ 
+    align-items: center;
+
+}
+
+.formation h1 {
+    padding: 10px;
+    font-size: 50px;
+    color: coral;
+    font-family: 'Bangers', cursive;
+}
+
+.courses {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr 1fr;
+    height: 500px;
+
+    align-items: center;
+}
+
+.course {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+
+}
+
+
+.course strong{
+    font-size: 20px;
+    color: #848484;
+}
+
+.course img {
+    width: 200px;
+    height: 200px;
+    padding-bottom: 10px;
+}
+
+.course span {
+    color: coral;
+    padding: 5px 0;
+}
+
+.course p{
+    text-align: justify;
+    margin: 0 10px;
+}
+
+@media (max-width: 822px){
+    .formation h1 {
+        padding: 30px;
+    }
+
+    .courses {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .course {
+        height: 250px;
+        
+    }
+
+    .course img {
+        width: 100px;
+        height: 100px;
+    } 
+}
